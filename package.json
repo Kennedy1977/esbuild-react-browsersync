@@ -1,0 +1,21 @@
+{
+  "name": "esbuild-sync",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-modules esbuild.config.mjs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "@babel/preset-react": "^7.24.6",
+    "browser-sync": "^3.0.2",
+    "esbuild": "^0.21.4",
+    "esbuild-plugin-babel": "^0.2.3"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
